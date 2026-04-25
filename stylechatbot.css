@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+     background-image: url("C:\\sowji\\consumerrights.webp");
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #00c6ff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #ff7eb3;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.action-btn {
+    background: #00ff9d;
+    color: black;
+    font-weight: bold;
+}
+

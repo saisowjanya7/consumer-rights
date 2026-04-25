@@ -1,0 +1,56 @@
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Background image */
+    background: url('https://www.obhanandassociates.com/blog/wp-content/uploads/2023/04/WHO-IS-A-CONSUMER-UNDER-THE-CONSUMER-PROTECTION-ACT_.jpg') no-repeat center center/cover;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.85); /* slight transparency */
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background: #007BFF;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+/* Chatbot button special color */
+.chatbot-btn {
+    background: #28a745;
+}
+
+.chatbot-btn:hover {
+    background: #1e7e34;
+}
